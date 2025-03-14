@@ -1,0 +1,32 @@
+# Ignore arquivos gerados pelo IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Ignore arquivos do Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignore logs e arquivos de cache
+*.log
+*.cache
+*.DS_Store
+*.class
+
+# Ignore arquivos do sistema operacional
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*.swn
+
+# Ignore configurações locais
+*.env
+*.local
+*.bak
+
