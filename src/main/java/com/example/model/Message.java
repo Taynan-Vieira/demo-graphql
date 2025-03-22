@@ -1,27 +1,23 @@
 package com.example.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import java.time.LocalDateTime;
 
+@Entity
+@Getter @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Message {
-    private final String id;
-    private final String content;
-    private final String timestamp;
 
-    public Message(String id, String content) {
-        this.id = id;
-        this.content = content;
-        this.timestamp = LocalDateTime.now().toString();
-    }
+    @Id
+    private String id;
+    private String content;
+    private String timestamp;
 
-    public String getId() {
-        return id;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public String getTimestamp() {
-        return timestamp;
-    }
 }

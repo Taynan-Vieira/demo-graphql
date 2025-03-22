@@ -1,17 +1,17 @@
-spring:
-  port: 8080
-  graphql:
-    websocket:
-      path: /graphql
-    connection-init-timeout: 300000
-
-logging:
-  level:
-    org:
-      springframework:
-        graphql: TRACE
-        web:
-          socket: TRACE
-          graphql: TRACE
-  reactor:
-    core: TRACE
+#spring:
+#  port: 8080
+#  graphql:
+#    websocket:
+#      path: /graphql
+#    connection-init-timeout: 300000
+#
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        graphql: TRACE
+#        web:
+#          socket: TRACE
+#          graphql: TRACE
+#  reactor:
+#    core: TRACE
